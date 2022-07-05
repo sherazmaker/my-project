@@ -37,7 +37,8 @@ module.exports = ({ env }) => ({
       settings: {
         client: "mongo",
         // uri: "mongodb+srv://logomoto:logomoto@cluster0.cs9j1.mongodb.net/?retryWrites=true&w=majority",
-        uri: "mongodb+srv://logomoto:logomoto@cluster0.cs9j1.mongodb.net/logomoto?retryWrites=true&w=majority",
+        // uri: "mongodb+srv://logomoto:logomoto@cluster0.cs9j1.mongodb.net/logomoto?retryWrites=true&w=majority",
+        uri: env("DATABASE_URI"),
       },
       options: {
         ssl: true,
