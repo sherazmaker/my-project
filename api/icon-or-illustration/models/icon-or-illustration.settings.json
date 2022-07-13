@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "icon_or_illustrations",
   "info": {
-    "name": "Icon or Illustration"
+    "name": "Icon or Illustration",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -28,10 +29,8 @@
       "default": "Work with skilled design professionals. No templates. No stock art."
     },
     "brief": {
-      "type": "text",
-      "required": true,
-      "maxLength": 350,
-      "default": "Your logo is the face of your brand, and your brand deserves more than overused stock art. Your Logmoto logo will be designed by highly skilled, human designers who are experts in branding."
+      "type": "richtext",
+      "required": true
     }
   }
 }
